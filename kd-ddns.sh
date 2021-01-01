@@ -6,7 +6,7 @@ echo && echo -e "欢迎使用kd-ddns
 	read -e -p "(默认: 取消):" bk_modify
 	[[ -z "${bk_modify}" ]] && echo "已取消..." && exit 1
 	if [[ ${bk_modify} == "1" ]]; then
-		curl https://raw.githubusercontent.com/xb0or/KD-DDNS/main/cf-ddns.sh > /usr/local/bin/cf-ddns.sh && chmod +x /usr/local/bin/cf-ddns.sh
+		curl https://raw.githubusercontent.com/oahiewuoil/KD-DDNS/main/cf-ddns.sh > /usr/local/bin/cf-ddns.sh && chmod +x /usr/local/bin/cf-ddns.sh
                 read -p "请输入主域名(eg:example.com) :" zhuyuming
                 read -p "请输入子域名(eg:123.example.com 只需填入123) :" ziyuming
                 read -p "请输入 cloudflare API :" youkey
@@ -14,7 +14,7 @@ echo && echo -e "欢迎使用kd-ddns
                 read -p "请输入 TG 机器人Token:" jiqirentoken
                 read -p "请输入 TG 接收人ID:" tongzhirenid
 	elif [[ ${bk_modify} == "2" ]]; then
-		curl https://raw.githubusercontent.com/xb0or/KD-DDNS/main/cf-cn-ddns.sh > /usr/local/bin/cf-ddns.sh && chmod +x /usr/local/bin/cf-ddns.sh
+		curl https://raw.githubusercontent.com/oahiewuoil/KD-DDNS/main/cf-cn-ddns.sh > /usr/local/bin/cf-ddns.sh && chmod +x /usr/local/bin/cf-ddns.sh
               read -p "请输入主域名(eg:example.com) :" zhuyuming
               read -p "请输入子域名(eg:123.example.com 只需填入123) :" ziyuming
               read -p "请输入 cloudflare API :" youkey
