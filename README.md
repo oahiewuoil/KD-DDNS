@@ -6,7 +6,7 @@
 
 
 ```
-curl -L -O -s https://raw.githubusercontent.com/xb0or/KD-DDNS/main/kd-ddns.sh && chmod +x kd-ddns.sh && ./kd-ddns.sh
+curl -L -O -s https://raw.githubusercontent.com/oahiewuoil/KD-DDNS/main/kd-ddns.sh && chmod +x kd-ddns.sh && ./kd-ddns.sh
 ```
 
 # 使用教程
